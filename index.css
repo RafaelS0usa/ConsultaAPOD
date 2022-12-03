@@ -1,0 +1,26 @@
+.searchImagem{
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: fit-content;
+    border: 0.1rem solid;
+    padding: 2rem;
+    text-align: end;
+    background-color: rgb(153 135 242 / 61%);
+    border-radius: 2rem;
+    margin-left: 27rem;
+    margin-top: 14rem;
+};
+
+img {
+    max-width: 10rem;
+    border: 0.2rem solid;
+    border-radius: 0.8rem;
+}
+
+body{
+    background-image: url('https://apod.nasa.gov/apod/image/2211/DSC_3971-11-16-2022-1024o.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
