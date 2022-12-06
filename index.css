@@ -3,15 +3,57 @@
     align-content: stretch;
     justify-content: center;
     align-items: flex-end;
-    max-width: fit-content;
-    border: 0.1rem solid;
-    padding: 2rem;
     text-align: end;
-    background-color: rgb(153 135 242 / 61%);
+    
+    background-color: rgb(151 74 255 / 73%);
+    
+    max-width: 32rem;
+    border: 0.1rem solid;
+    padding: 1rem;
     border-radius: 2rem;
-    margin-left: 27rem;
-    margin-top: 14rem;
+    margin-left: 22rem;
+    margin-top: 1rem;
+    
+    font-size: 1.5rem;
 };
+
+#buttonSearch{
+    border-radius: 1.4rem;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-left: 7rem;
+}
+
+
+#dateSearch{
+
+}
+
+#infos{
+    max-width: 30rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 22rem;
+    padding: 2rem;
+    background-color: rgba(153, 135, 242, 0.76);
+    color: black;
+    border-radius: 2rem;
+}
+
+#dateSearch{
+    border: 0rem;
+    border-bottom: solid;
+    background-color: rgb(255 255 255 / 0%);
+    width: 8rem;
+    height: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
 
 img {
     max-width: 10rem;
@@ -20,7 +62,22 @@ img {
 }
 
 body{
-    background-image: url('https://apod.nasa.gov/apod/image/2211/DSC_3971-11-16-2022-1024o.jpg');
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://wallpaperaccess.com/full/31367.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media(max-width: 768px){
+    .main{
+        max-width: 50rem;
+        max-height: 50rem;
+    }
+
+    body{
+        background-size: auto;
+    }
 }

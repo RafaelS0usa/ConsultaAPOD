@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nasa - Pictures of the day</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="https://juvigh.github.io/Picture-Day-APOD/assets/svg/nasa-icon.svg" type="image/x-icon">
 </head>
 <body>
     <section class="searchImagem">
         <div id="inputSearch">
-            <h2>Busque sua Imagem</h2>
-            <label for="busca"><strong>Digite uma Data:</strong></label>
-            <input type="text" id="busca" name="busca" title="Digite uma data" required>
+            <label for="dataSearch"><strong>Insira uma Data:</strong></label>
+            <input type="date" class="dateSearch" id="dateSearch" name="dataSearch" title="Digite uma data" required>
+            <button type="button" id="buttonSearch" class="buttonSearch" onclick="criandoDiv()">Buscar</button>
         </div>
-        <img src="https://apod.nasa.gov/apod/image/2211/DSC_3971-11-16-2022-1024o.jpg" alt="">
-        <button type="button" class="buttonSearch" onclick="">Buscar</button>
+
     </section>
+    <div class="infos" id="infos">
+
+    </div>
 <script src="index.js"></script>
 </body>
 </html>
